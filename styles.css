@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "holberton_school-icon";
+    src: url("fonts/holberton_school-icon.eot");
+    src: url("fonts/holberton_school-icon.woff") format("woff"),
+    url("fonts/holberton_school-icon.ttf") format("ttf"),
+    url("fonts/holberton_school-icon.svg") format("svg");
+}
+
+
+body {
+
+    background-repeat: no-repeat;
+    background-color: #071629;
+    background-size: 100%, auto;
+    
+}
+
+
+/* BACKGROUND IMAGES  */
+body.smiles-pic {
+    background-image: url(images/pic_1.jpg);
+}
+
+
+
+nav a {
+    font-size: 15px;
+}
+
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+    font-size: 65px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+popular-videos {
+    width: 250px;
+}
+
+
+
+
+
+.pro-color {
+    color: #c371ff;
+}
+.button-color {
+    background-color: #c371ff;
+}
+
+img.pro-pic {
+    width: 150px;
+    height: 150px;
+}
+
+img.smiles {
+    height: 30px;
+}
+
+
+
+/* SOCIAL ICONS */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+.fa-facebook {
+    background: white;
+    color: black;
+}
+
+.fa-twitter {
+    background: white;
+    color: black;
+}
+
+.fa-instagram {
+    background: white;
+    color: black;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #C271FF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
